@@ -1,0 +1,23 @@
+{
+  "name": "technical_tests",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iansayre/technical_tests",
+  "authors": [
+    "iansayre <me@iansayre.com>"
+  ],
+  "description": "westfield labs technical test",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.5",
+    "angular-bootstrap": "0.13.4",
+    "bootstrap-sass-official": "3.3.5",
+    "jquery": "2.1.4"
+  }
+}

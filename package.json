@@ -1,0 +1,24 @@
+{
+  "name": "technical_tests",
+  "version": "0.0.1",
+  "description": "westfield labs technical test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iansayre/technical_tests.git"
+  },
+  "author": "Ian Sayre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iansayre/technical_tests/issues"
+  },
+  "homepage": "https://github.com/iansayre/technical_tests#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
