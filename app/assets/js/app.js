@@ -1,6 +1,6 @@
 'use strict';
 
 var westfieldApp = angular.module('westfieldApp', [
-	// 'ngRoute',
+	'ngRoute',
 	'ui.bootstrap'
 ]);
