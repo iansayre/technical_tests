@@ -1,0 +1,5 @@
+<accordion close-others="oneAtATime" ng-controller="locationAccordionCtrl">
+	<accordion-group heading="{{location.name}}" ng-repeat="location in locations">
+		{{location.content}}
+	</accordion-group>
+</accordion>

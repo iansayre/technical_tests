@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="westfieldApp" class="no-js">
+<head>
+	<title>Westfield Technical Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+			<div class="row">
+				<div class="col-sm-4 col-md-4 col-lg-4">
+					<img class=" img-responisve logo" src="assets/images/westfield_logo.svg" alt="Wesfield Logo"/>
+				</div>
+			</div>
+
+		</header>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 sub-header">
+				<h2>Deals</h2>
+			</div>
+		</div>
+		<div ng-view></div>
+	</div>
+</body>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="assets/js/app.js"></script>
+</html>

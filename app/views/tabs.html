@@ -1,0 +1,16 @@
+<div class="row">
+	<div class="sm-col-12 md-col-8 lg-col-8" ng-controller="stateTabsCtrl">
+		<tabset>
+			<tab ng-repeat="state in states" heading{{state.abrv}} class="state-tabs">
+				{{state.content}}
+			</tab>
+		</tabset>
+	</div>
+	<div class="sm-col-12 md-col-4 lg-col-4">
+		<form class="form-inline">
+			<div class="form-group">
+				<input type="search" id="dummy-search" class="form-control" placeholder="Search for deals...">
+			</div>
+		</form>
+	</div>
+</div>

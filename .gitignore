@@ -16,3 +16,11 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+.DS_Store
+
+# Ignore doc files
+.sass-cache
